@@ -1,3 +1,4 @@
-# add the following to _config.yml file
-title: Iñaki Rosello
+title: "Iñaki Rosello"
+description: "Data Science Portfolio"
 theme: jekyll-theme-minimal
+logo: /assets/profile.png   # optional
