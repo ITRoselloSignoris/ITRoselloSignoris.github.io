@@ -5,40 +5,62 @@ body {
   scroll-behavior: smooth;
 }
 
+/* Navbar */
 .navbar {
-  background-color: #222;
-  padding: 10px 20px;
+  background: #222;
+  padding: 15px 20px;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 1000;
 }
-
 .navbar ul {
   margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
+  justify-content: center;
 }
-
 .navbar li {
-  margin-right: 20px;
+  margin: 0 15px;
 }
-
 .navbar a {
   color: white;
   text-decoration: none;
   font-weight: bold;
 }
-
 .navbar a:hover {
   text-decoration: underline;
 }
 
-main {
-  padding: 80px 20px; /* extra top padding for navbar */
+/* Hero section */
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #4a90e2, #9013fe);
+  color: white;
+  text-align: center;
 }
 
+/* Sections */
 section {
-  margin-bottom: 60px;
+  padding: 80px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+section h2 {
+  margin-top: 0;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+.project {
+  margin-bottom: 20px;
+}
+
+/* Spacing after fixed navbar */
+#about, #education, #projects, #certifications, #contact {
+  padding-top: 100px;
 }
